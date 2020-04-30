@@ -1,0 +1,12 @@
+Source: ros-verystable-rqt-plot
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/rqt_plot
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rqt-plot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, python3-matplotlib, python3-numpy, ros-verystable-python-qt-binding (>= 0.2.19), ros-verystable-qt-gui-py-common (>= 0.2.25), ros-verystable-rclpy, ros-verystable-rqt-gui, ros-verystable-rqt-gui-py, ros-verystable-rqt-py-common, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
