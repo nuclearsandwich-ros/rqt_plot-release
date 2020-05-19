@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-plot
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_plot
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-plot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, python3-matplotlib, python3-numpy, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-qt-gui-py-common (>= 0.2.25), ros-testing-rclpy, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-rqt-py-common, ros-testing-std-msgs, ros-testing-ros-workspace
+Description: rqt_plot provides a GUI plugin visualizing numeric values in a 2D plot using different plotting backends.
